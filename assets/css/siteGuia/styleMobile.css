@@ -1,0 +1,144 @@
+@media only screen and (max-width: 1190px) {
+	.inputWidth {
+    	min-width: 256px;
+	}
+	#buscaCat{
+		width: 13em;
+	}
+	.itemCateg .textCat{
+		width: 11em; 
+	}
+}
+
+
+@media only screen and (max-width: 991px) {
+	.divInputBusc{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.inputWidth {
+    	max-width: 315px;
+	}
+
+	#buscaCat{
+		width: 7em;
+	}
+	.itemCateg .textCat{
+		width: 11em; 
+	}
+	.formuListaEmp{
+		display: none;
+	}
+}
+
+
+@media only screen and (max-width: 768px) {
+	.inputWidth {
+    	max-width: 315px;
+	}
+	#buscaCat{
+		width: 13em;
+	}
+	.itemCateg .textCat{
+		width: 11em; 
+	}
+	.divInputBusc{
+	}
+	.areaListaEmp{
+		flex-direction: column;
+	}
+	.formuListaEmp{
+		display: none;
+	}
+	.listaEmpresa{
+		flex-direction: column;
+	}
+	.descEmpresa h5{
+		text-align: center;
+	}
+	.opcEmpresa{
+		width: 100%;
+		text-align: center;
+		border-left: 0px;
+		margin-right: 15px;
+		text-align: left;
+	}
+	.empDadosMob{
+		display: flex;
+		margin-top: 10px;
+	}
+	.opcEmpView, .opcEmpDados {
+		flex:1;
+	}
+	.opcEmpView{
+		margin-left: 5px;
+		padding-left: 5px;
+		border-left: 1px solid #ccc;
+	}	
+	.opcEmpView label{
+		width: 100%;
+	}
+	.breadcrumb-arrow{
+		display: none;
+	}
+	.breadcrumb-mob{
+		display: flex !important;
+	}
+	.topoCompany{
+		justify-content: center;
+		z-index: 1;
+	}
+	.logoCompany{
+		margin-left: 0;
+	}
+	.infoEmp{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 50px;
+		padding: 0;
+		text-align: center;
+		position: relative;
+	}
+	.infoTitle{
+		height: initial;
+	    max-width: 22em;
+		text-align: center;
+		flex: none;
+		overflow: visible;
+		position: relative;
+		white-space: normal;
+	}
+	.evaluation{
+		flex: none;
+		justify-content: center;
+		position: relative;
+	}
+	.dadosCompany{
+		flex-direction: column-reverse;
+	}
+	.Hour{
+		flex: none;
+	}
+	.dadosExp{
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.inputWidth {
+    	max-width: 315px;
+	}
+	#buscaCat{
+		width: 13em;
+	}
+	.itemCateg .textCat{
+		width: 11em; 
+	}
+
+}
+
+@media only screen and (max-width: 550px){
+
+}

@@ -1,0 +1,28 @@
+.select2-container .select2-selection--single{
+    height: 35px !important;
+}
+.select2-container--default .select2-selection--single{
+    border: 1px solid #d2d6de !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+	top: 5px !important;
+}
+
+
+.dia-atd input{
+	margin-bottom: 5px;
+}
+
+.abre-atd input{
+	max-height: 26px;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	margin-bottom: 5px;
+}
+
+.fecha-atd input{
+	max-height: 26px;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	margin-bottom: 5px;
+}

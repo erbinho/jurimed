@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1540px) {
+	
+	.tamanho-caption-left h4, .tamanho-caption-rigth h4{
+		font-size: 35px;
+	}
+    .tamanho-caption-left p, .tamanho-caption-rigth p{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+	.box-login{
+	    left: 55%;
+	}
+	.tamanho-caption-left, .tamanho-caption-rigth{
+		width: 300px;
+	}
+	.tamanho-caption-left h4, .tamanho-caption-rigth h4{
+		font-size: 20px;
+	}
+    .tamanho-caption-left p, .tamanho-caption-rigth p{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 950px) {
+	.box-login{
+	    left: 55%;
+	}
+	.tamanho-caption-left, .tamanho-caption-rigth{
+		width: 250px;
+	}
+	.tamanho-caption-left h4, .tamanho-caption-rigth h4{
+		font-size: 20px;
+	}
+    .tamanho-caption-left p, .tamanho-caption-rigth p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 992px) { 
+	#navbarMenu{
+		display: none !important;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.menu_start{
+		display: none !important;
+	}
+}
+@media only screen and (max-width: 835px) {
+	.box-login{
+	    left: 55%;
+	}
+	.tamanho-caption-left h4, .tamanho-caption-rigth h4{
+		font-size: 15px;
+	}
+    .tamanho-caption-left p, .tamanho-caption-rigth p{
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 735px) {
+	.box-login{
+	    left: 15%;
+	}
+	.slidesDestaque{
+		display: none;
+	}
+}
+@media only screen and (max-width: 380px) {
+	.box-login{
+	    left: 15%;
+	}
+	.menu-top img{
+		width: 125px;
+	}
+}
+@media only screen and (max-width: 325px) {
+	.email{
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 305px) {
+	.menu-top img{
+		width: 90px;
+	}
+}

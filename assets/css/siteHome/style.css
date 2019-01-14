@@ -1,0 +1,219 @@
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+.top-contato{
+	background-color: #B97E06;
+}
+
+.row{
+	display: flex;
+}
+
+.email, .fone{
+	display: flex;
+	align-items: center;
+	width: 230px;
+	font-size: 14px;
+	color: #fff;
+	height: 35px;
+}
+.email img, .fone img{
+	margin-right: 5px;
+}
+.email label, .fone label{
+	margin-top: 5px;
+}
+
+.area-admin{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	font-size: 14px;
+	color: #fff;
+}
+.area-admin label{
+	text-align: right;
+	cursor: pointer;
+}
+.box-login{
+	display: none;
+	width: 300px;
+	height: 315px;
+	background-color: #fff;
+	position: fixed;
+	left: 75%;
+	margin: 5px;
+	border: 3px solid #B97E06;
+	z-index: 9999;
+	box-shadow: 1px 1px 10px #707070;
+}
+.home{
+	color: #fff;
+}
+.home:hover{
+	color: #fff;
+}
+.formu-login{
+	padding: 10px;
+}
+.fecharAreaLogin{
+	float: right !important;
+	color: #fff;
+}
+
+.area-menu-top{
+	height: 89px;
+}
+
+.area-menu-top{
+	height: 89px;
+}
+.menu-top{
+	flex:1 !important;
+}
+
+.menu-scroll{
+	position: fixed;
+	z-index: 7777;
+	background-color: #fff;
+	box-shadow: 2px 2px 5px #BBB;
+	-webkit-top: -50pt; 
+}
+#navbarMenu{
+	box-shadow: 1px 4px 5px #BBB;
+	margin-top: 5px;
+}
+
+#navbarMenu .menu_mob_sidebar a{
+	color: #692B01 !important;
+}
+#navbarMenu .menu_mob_sidebar a:hover{
+	color: #FFF !important;
+	background-color: #EF6407;
+	transition: all 200ms ease-in;
+}
+
+.site-footer{
+	margin-top: 55px;
+	background-color: #692B01;
+	padding-top: 35px;
+	color: #fff;
+}
+.title-Footer{
+	font-size: 22px;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 10px;
+}
+.site-footer .col-sm hr{
+	background-color: #fff;
+}
+.site-footer .col-sm .column{
+	font-size: 12px;
+	margin-bottom: 15px;
+	margin-left: 5px;
+	width: 160px;
+}
+.text-institucional{
+	margin-top: 55px;
+	border-top: 1px dotted #fff;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+.itens-contato{
+	display: flex;
+	flex-wrap: wrap;
+}
+.refence-footer{
+	text-align: center;
+	font-size: 11px;
+}
+.refence-footer p{
+	margin: 5px 0 0 0;
+}
+.cad-link{
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+	margin-top: -7px;
+	margin-left: -13px;
+	background-color: #B97E06;
+	position: absolute;
+	width: 300px;
+	box-shadow: 1px 4px 10px #707070;
+}
+.cad-link:hover{
+	color: #fff;
+}
+
+.login-form{
+	min-width: 310px;
+	width: 410px;
+	box-shadow: 1px 1px 50px #aaa;
+	border-radius: 10px;
+}
+.msgAlert{
+	display: none;
+}
+
+
+/* -- Paginas do Site -- */
+.bg-banner{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center 90px; 
+
+	padding-top: 65px;
+	padding-bottom: 65px;
+}
+.item-banner{
+	background-color: #DA671B;
+	width: 400px;
+	padding: 10px;
+}
+.box-vantagem{
+	width: 403px;
+	height: 350px;
+}
+.icone-box{
+	margin-top: -30px;
+	width: 78px;
+	height: 78px;
+	border-radius: 10px;
+}
+
+.moduleTitle{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.moduleTitle::before{
+    content: '';
+    width: 0;
+    height: 0;
+    left: 50%;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: #d4d5d5 transparent transparent transparent;
+    position: absolute;
+}
+.moduleTitle::after{
+    content: '';
+    width: 100%;
+    max-width: 350px;
+    border-bottom: 1px solid #d8d8d8;
+    position: absolute;
+    left: 50%;
+    margin-top: 50px;
+    transform: translate(-50%, 0%);
+} 
+.area-busca{
+	background-color: #333 !important;
+}
+
+
+.area-busca-guia{	
+}
